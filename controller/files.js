@@ -8,6 +8,9 @@ var path = require("path");
 exports.admin = function(req, res, next) {
     res.render('index', { title: 'Express' });
 }
+exports.contact = function(req, res, next) {
+    res.render('contact', { title: '联系我们' });
+}
 exports.getFile= function (req, res, next) {
     var pathname = url.parse(req.url).pathname.slice("/getFile".length);
     var realPath = config.file_path + pathname;

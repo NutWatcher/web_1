@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/web_1.css' />
+    <%- include ./parts/head.ejs %>
 </head>
-<body id="index">
-    <div id="header">
-        <div class="h_div">
-            <div class="float_left">
-                <a href="/">
-                    <img src="./images/logo.jpg" alt="seo" title="seo">
-                </a>
-            </div>
-            <div class="float_right tel">
-                <p>
-                    联系电话: <span>555-88885555</span>
-                </p>
+<body >
+    <%- include ./parts/header.ejs %>
+    <div id="index">
+        <div id="index_box">
+            <div id="index_nav">
+                <ul>
+                    <li>
+                        <a href="/">网站主页</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a>企业介绍</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a>业绩展示</a>
+                        <span>|</span>
+                    </li>
+                    <li>
+                        <a href="contact">联系我们</a>
+                    </li>
+                </ul>
             </div>
         </div>
-
     </div>
-    <div id="title">
-        <ul id="list" >
-            <li>标题一</li>
-            <li>标题二</li>
-            <li>标题三</li>
-            <li>标题四</li>
-            <li>标题五</li>
-        </ul>
-    </div>
-    <div id="index_box">
-        <div id="index_nav">
-            <ul id="list" >
-                <li>标题一</li>
-                <li>标题二</li>
-                <li>标题三</li>
-                <li>标题四</li>
-                <li>标题五</li>
-            </ul>
-           <!-- <ul>
-                <li>网站主页</li>
-                <li>企业介绍</li>
-                <li>业绩展示</li>
-                <li>联系我们</li>
-            </ul> -->
-        </div>
-    </div>
+    <%- include ./parts/foot.ejs %>
 </body>
 </html>
