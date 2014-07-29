@@ -6,6 +6,13 @@ exports.config = {
     session_secret: 'lyy',
     auth_cookie_name: 'lyy',
     admins: { lyy: true },
-    image_path: "D:/nodejsImage",
-    file_path: "D:/nodejsImage"
+    file_path: "D:/nodejsFile",
+    articleList:{
+        about:{
+            code : "web01_jieshao"
+        },
+        caseList:{
+            code : "web01_anli"
+        }
+    }
 };

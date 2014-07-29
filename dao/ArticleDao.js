@@ -1,7 +1,7 @@
 /**
  * Created by yzjf on 2014/6/15.
  */
-var models = require('../mode');
+var models = require('../model');
 var Article = models.Article;
 /**
  * 根据内容的id查找内容

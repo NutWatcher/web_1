@@ -1,7 +1,7 @@
 /**
  * Created by yzjf on 2014/6/15.
  */
-var models = require('../mode');
+var models = require('../model');
 var ArticleList = models.ArticleList;
 
 /**

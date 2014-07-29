@@ -3,7 +3,6 @@
  */
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var config = require('../config').config;
 
 var ArticleListSchema = new Schema({
     description: { type: String },

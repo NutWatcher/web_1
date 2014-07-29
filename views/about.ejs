@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include ./parts/head.ejs %>
+</head>
+<body >
+<%- include ./parts/header.ejs %>
+<%- include ./parts/nav.ejs %>
+
+<div id="main">
+    <div id="main_box">
+        <div class="position">
+            您现在的位置：首页 > 企业介绍
+        </div>
+        <div id="article">
+            <div id="article_body">
+                <%- contentTitle %>
+                <%- content %>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include ./parts/foot.ejs %>
+</body>
+</html>
